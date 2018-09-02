@@ -236,20 +236,27 @@
     <Compile Include="Assets\Script\TEA.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Shader\Alpha纹理混合.shader" />
-    <None Include="Assets\Shader\Ball_OL_Diffuse_Cutoff.shader" />
-    <None Include="Assets\Shader\GrabPassInvert.shader" />
-    <None Include="Assets\Shader\Shader01.shader" />
-    <None Include="Assets\Shader\Shader02.shader" />
-    <None Include="Assets\Shader\Shader03.shader" />
-    <None Include="Assets\Shader\Shader04.shader" />
-    <None Include="Assets\Shader\Shader05.shader" />
-    <None Include="Assets\Shader\Shader06.shader" />
-    <None Include="Assets\Shader\ShaderTags.shader" />
-    <None Include="Assets\Shader\SystemShder00.shader" />
-    <None Include="Assets\Shader\纹理Alpha与自发光混合可调色版.shader" />
-    <None Include="Assets\Shader\纹理的Alpha通道与自发光相混合.shader" />
-    <None Include="Assets\Shader\顶点光照+纹理Alpha自发光混合.shader" />
+    <None Include="Assets\Shader\MyPlay\Play01_ZTest.shader" />
+    <None Include="Assets\Shader\MyPlay\Play02_ZTest.shader" />
+    <None Include="Assets\Shader\Scene_ShaderBase\Alpha纹理混合.shader" />
+    <None Include="Assets\Shader\Scene_ShaderBase\Ball_OL_Diffuse_Cutoff.shader" />
+    <None Include="Assets\Shader\Scene_ShaderBase\GrabPassInvert.shader" />
+    <None Include="Assets\Shader\Scene_ShaderBase\Shader01.shader" />
+    <None Include="Assets\Shader\Scene_ShaderBase\Shader02.shader" />
+    <None Include="Assets\Shader\Scene_ShaderBase\Shader03.shader" />
+    <None Include="Assets\Shader\Scene_ShaderBase\Shader04.shader" />
+    <None Include="Assets\Shader\Scene_ShaderBase\Shader05.shader" />
+    <None Include="Assets\Shader\Scene_ShaderBase\Shader06.shader" />
+    <None Include="Assets\Shader\Scene_ShaderBase\ShaderTags.shader" />
+    <None Include="Assets\Shader\Scene_ShaderBase\SystemShder00.shader" />
+    <None Include="Assets\Shader\Scene_ShaderBase\纹理Alpha与自发光混合可调色版.shader" />
+    <None Include="Assets\Shader\Scene_ShaderBase\纹理的Alpha通道与自发光相混合.shader" />
+    <None Include="Assets\Shader\Scene_ShaderBase\顶点光照+纹理Alpha自发光混合.shader" />
+    <None Include="Assets\Shader\Scene_Shader_Cull_Alpha\13.用剔除操作渲染对象背面.shader" />
+    <None Include="Assets\Shader\Scene_Shader_Cull_Alpha\14.用剔除实现玻璃效果.shader" />
+    <None Include="Assets\Shader\Scene_Shader_Cull_Alpha\15.基本Alpha测试.shader" />
+    <None Include="Assets\Shader\Scene_Shader_Cull_Alpha\16.顶点光照+可调透明度.shader" />
+    <None Include="Assets\Shader\Scene_Shader_Cull_Alpha\17.简单的植被Shader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
