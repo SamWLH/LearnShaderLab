@@ -233,6 +233,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\MotionBlurEffects.cs" />
     <Compile Include="Assets\Script\TEA.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -252,11 +253,17 @@
     <None Include="Assets\Shader\Scene_ShaderBase\纹理Alpha与自发光混合可调色版.shader" />
     <None Include="Assets\Shader\Scene_ShaderBase\纹理的Alpha通道与自发光相混合.shader" />
     <None Include="Assets\Shader\Scene_ShaderBase\顶点光照+纹理Alpha自发光混合.shader" />
+    <None Include="Assets\Shader\Scene_ShaderMode\Mode_Image Effect Shader.shader" />
+    <None Include="Assets\Shader\Scene_ShaderMode\Mode_Surface Shader.shader" />
+    <None Include="Assets\Shader\Scene_ShaderMode\Mode_Unlit Shader.shader" />
+    <None Include="Assets\Shader\Scene_Shader_Blend\22.Blend_玻璃效果.shader" />
+    <None Include="Assets\Shader\Scene_Shader_Blend\23.Blend_玻璃效果.shader" />
     <None Include="Assets\Shader\Scene_Shader_Cull_Alpha\13.用剔除操作渲染对象背面.shader" />
     <None Include="Assets\Shader\Scene_Shader_Cull_Alpha\14.用剔除实现玻璃效果.shader" />
     <None Include="Assets\Shader\Scene_Shader_Cull_Alpha\15.基本Alpha测试.shader" />
     <None Include="Assets\Shader\Scene_Shader_Cull_Alpha\16.顶点光照+可调透明度.shader" />
     <None Include="Assets\Shader\Scene_Shader_Cull_Alpha\17.简单的植被Shader.shader" />
+    <None Include="Assets\Shader\Screen_Fx\1.径向模糊特效标准版.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

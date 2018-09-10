@@ -37,7 +37,10 @@
 			//SetTexture[_MainTex]{ combine previous *texture, previous + texture }
 			//如上所述，我们对RGB的颜色做乘然后对Alpha透明度相加
 
-
+			//Previous 是上一次SetTexture的结果
+			//Primary  是来自光照计算的颜色或是当它绑定时的顶点颜色
+			//Texture  是在SetTexture中被定义的纹理的颜色
+			//Constant 是被ConstantColor定义的颜色
 
 
 			}
