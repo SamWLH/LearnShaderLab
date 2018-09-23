@@ -310,6 +310,7 @@
     <None Include="Assets\Shader\Scene_ShaderBase\纹理的Alpha通道与自发光相混合.shader" />
     <None Include="Assets\Shader\Scene_ShaderBase\顶点光照+纹理Alpha自发光混合.shader" />
     <None Include="Assets\Shader\Scene_ShaderMode\Mode_Image Effect Shader.shader" />
+    <None Include="Assets\Shader\Scene_ShaderMode\Mode_StandardShader.shader" />
     <None Include="Assets\Shader\Scene_ShaderMode\Mode_Surface Shader.shader" />
     <None Include="Assets\Shader\Scene_ShaderMode\Mode_Unlit Shader.shader" />
     <None Include="Assets\Shader\Scene_Shader_Blend\22.Blend_玻璃效果.shader" />
@@ -319,7 +320,13 @@
     <None Include="Assets\Shader\Scene_Shader_Cull_Alpha\15.基本Alpha测试.shader" />
     <None Include="Assets\Shader\Scene_Shader_Cull_Alpha\16.顶点光照+可调透明度.shader" />
     <None Include="Assets\Shader\Scene_Shader_Cull_Alpha\17.简单的植被Shader.shader" />
+    <None Include="Assets\Shader\Scene_ToonShader\ToonShader_Lambert.shader" />
+    <None Include="Assets\Shader\Scene_ToonShader\ToonShader_Lambert02.shader" />
     <None Include="Assets\Shader\Screen_Fx\1.径向模糊特效标准版.shader" />
+    <None Include="Assets\Shader\Vert+frag实现两种光照模型\LambertDiffuse_f.shader" />
+    <None Include="Assets\Shader\Vert+frag实现两种光照模型\LambertDiffuse_v.shader" />
+    <None Include="Assets\Shader\Vert+frag实现两种光照模型\Specular_f.shader" />
+    <None Include="Assets\Shader\Vert+frag实现两种光照模型\Specular_v.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

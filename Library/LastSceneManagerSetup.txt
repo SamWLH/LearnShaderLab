@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/UnityModeShaderIntroduce.unity
+- path: "Assets/Scenes/vert+frag\u5B9E\u73B0\u4E09\u79CD\u5149\u7167\u6A21\u578B.unity"
   isLoaded: 1
   isActive: 1
