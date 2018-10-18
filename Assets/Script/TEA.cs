@@ -10,7 +10,16 @@ using System.Collections;
 /// </summary>
 public class TEA : MonoBehaviour {
 
-	void Start () {
-	
-	}
+    void Start () {
+    
+    }
+
+
+
+
+    void FixedUpdate()
+    {
+            
+        Debug.Log(Mathf.Sin(Time.time));
+    }
 }

@@ -271,6 +271,8 @@
     <None Include="Assets\Shader\Vert+frag实现两种光照模型\LambertDiffuse_v.shader" />
     <None Include="Assets\Shader\Vert+frag实现两种光照模型\Specular_f.shader" />
     <None Include="Assets\Shader\Vert+frag实现两种光照模型\Specular_v.shader" />
+    <None Include="Assets\Shader\顶点动画\顶点动画（波形上下）.shader" />
+    <None Include="Assets\Shader\顶点动画\顶点动画（波形水平）.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
