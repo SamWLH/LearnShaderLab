@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: b34a14533bd44d145a85de1a9c78e410
+timeCreated: 1525851894
+licenseType: Pro
+ShaderImporter:
+  defaultTextures:
+  - _Maintex: {fileID: 2800000, guid: fa5e1e35fc23efd4f96c8e0fc0088f14, type: 3}
+  - _Noise: {fileID: 2800000, guid: dcb3d7a710947fa43a345d30e971e121, type: 3}
+  - _Noise_Mask: {fileID: 2800000, guid: 1981248e15cf7e74bb7bfed36e7ccc4b, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
