@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: add_noise_58_02
+  m_Shader: {fileID: 4800000, guid: 6c7a3b3d18e18224a93390e4ee160d86, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailAlbedoMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailMask
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DetailNormalMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 5ae9ee073abbc1d44a79f7a97563927c, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 2.63, y: 0.58}
+    - first:
+        name: _Maintex
+      second:
+        m_Texture: {fileID: 2800000, guid: d39819ae05ee2e8459c4f9725509f16d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Mask
+      second:
+        m_Texture: {fileID: 2800000, guid: e1b04f6fdfc8c4b449f59022e123bd58, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MaskTexture
+      second:
+        m_Texture: {fileID: 2800000, guid: 990fd4aaf7b86824cb5a163cbad68cbf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MetallicGlossMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _OcclusionMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_2127
+      second:
+        m_Texture: {fileID: 2800000, guid: dcb3d7a710947fa43a345d30e971e121, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_3488
+      second:
+        m_Texture: {fileID: 2800000, guid: fc6027d3145009349a2bf10b2b2a31e2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_5769
+      second:
+        m_Texture: {fileID: 2800000, guid: ecc88baaad078444c8245985ca494eee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_7637
+      second:
+        m_Texture: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _rongjie
+      second:
+        m_Texture: {fileID: 2800000, guid: 0b11f92546dc12b41af1aa41fad93b74, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _tex
+      second:
+        m_Texture: {fileID: 2800000, guid: d39819ae05ee2e8459c4f9725509f16d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _BumpScale
+      second: 1
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _DetailNormalMapScale
+      second: 1
+    - first:
+        name: _DstBlend
+      second: 0
+    - first:
+        name: _EXP
+      second: 1.5
+    - first:
+        name: _Fresnel_bright
+      second: 1
+    - first:
+        name: _Fresnel_exp
+      second: 2
+    - first:
+        name: _GlossMapScale
+      second: 1
+    - first:
+        name: _Glossiness
+      second: 0.5
+    - first:
+        name: _GlossyReflections
+      second: 1
+    - first:
+        name: _Metallic
+      second: 0
+    - first:
+        name: _Mode
+      second: 0
+    - first:
+        name: _N_BY_KD
+      second: 0
+    - first:
+        name: _N_BY_QD
+      second: 0
+    - first:
+        name: _N_mask
+      second: 1
+    - first:
+        name: _OcclusionStrength
+      second: 1
+    - first:
+        name: _One_minus
+      second: 0
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _SmoothnessTextureChannel
+      second: 0
+    - first:
+        name: _SpecularHighlights
+      second: 1
+    - first:
+        name: _SrcBlend
+      second: 1
+    - first:
+        name: _UVSec
+      second: 0
+    - first:
+        name: _ZWrite
+      second: 1
+    - first:
+        name: _aplha
+      second: 0.3
+    - first:
+        name: _exp
+      second: -0.09
+    - first:
+        name: _node_3025
+      second: 1.45
+    - first:
+        name: _node_8391
+      second: 1.32
+    - first:
+        name: _power
+      second: 0
+    - first:
+        name: _tex_strength
+      second: 1
+    m_Colors:
+    - first:
+        name: _C_BYcolor
+      second: {r: 1, g: 0, b: 0, a: 1}
+    - first:
+        name: _Center
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _Color
+      second: {r: 0.039413933, g: 0.2503766, b: 0.5955882, a: 1}
+    - first:
+        name: _EmissionColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _Fresnel_color
+      second: {r: 0.04119808, g: 0.49058902, b: 0.9338235, a: 1}
+    - first:
+        name: _Normal
+      second: {r: 0, g: 0, b: 1, a: 0}
+    - first:
+        name: _Scale
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.42942372, g: 0.11483564, b: 0.43382353, a: 0.134}
+    - first:
+        name: _color
+      second: {r: 0.029411793, g: 0.35740378, b: 1, a: 1}
+    - first:
+        name: _maintex_panner
+      second: {r: 0.1, g: 0.1, b: 0, a: 0}
+    - first:
+        name: _maintex_uv
+      second: {r: 1, g: 0, b: 0, a: 0}
+    - first:
+        name: _node_5356
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _node_614
+      second: {r: 0, g: 0.3394015, b: 0.5073529, a: 1}
+    - first:
+        name: _node_9289
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - first:
+        name: _smokeUV
+      second: {r: 0, g: 0, b: 0, a: 0}
